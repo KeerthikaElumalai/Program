@@ -1,11 +1,11 @@
 number=int(input())
 if number>1:
  for i in range(2,number):
-  if (number%i)==0:
-   print("Not a Prime number")
+  if (number % i)==0:
+   print("No")
    break
   else:
-   print("Is a Prime number")
+   print("Yes")
 else:
- print("Not a Prime number")
+ print("No")
  
