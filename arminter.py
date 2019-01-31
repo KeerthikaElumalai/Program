@@ -1,6 +1,6 @@
 lower = int(input("Enter lower range: "))
 upper = int(input("Enter upper range: "))
- for num in range(lower,upper + 1):
+ for num in range(lower,upper + 1)://keerthika
    sum = 0
    temp = num
    while temp > 0:
