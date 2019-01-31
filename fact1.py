@@ -1,4 +1,4 @@
-n=int(intput()
+n=int(intput())
       fact=1
  while(n>0):
       fact = fact*n
