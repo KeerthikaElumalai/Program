@@ -1,5 +1,15 @@
-ch = input("Enter a character: ")
-if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
-    print(ch, "Alphabet")
-else:
-    print(ch, "not an Alphabet")
+#include<stdio.h>
+int main()
+{
+    char ch;
+	printf(" ");
+	scanf("%c",&ch);
+	if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
+	{
+		printf(" alphabet",ch);
+	}
+	else
+	{
+		printf("not an alphabet",ch);
+	}
+}
