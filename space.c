@@ -6,6 +6,6 @@ int i,count=0;
 gets(str);
 for(i=0;str[i];i++)
 if(str[i] == ' ')
-count++
+count++;
 printf("\n%d",count);
 }
