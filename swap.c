@@ -7,6 +7,6 @@ t = x;
 x = y;
 y = t;
 printf("\n%d\t%d\n", x, y);
-return 0;
+//return 0;
 }
 
