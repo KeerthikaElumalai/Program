@@ -13,6 +13,7 @@ if(No<=1 || No>=10)
 else
 {
 printf("yes");
+ break;
 }
 }
 }
