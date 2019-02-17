@@ -24,10 +24,10 @@ int main(void)
  }
  if(flag==0)
  {
-  printf("no\n");
+  printf("no\n",num);
  }
  else
  {
-  printf("yes\n");
+  printf("yes\n",num);
  }
 }
