@@ -18,5 +18,5 @@ int main(void)
     }
    }
    for(i = 0; i < n; ++i)
-    printf("%d", num[i]);
+    printf("%d ", num[i]);
   }
