@@ -13,10 +13,8 @@ int main()
        {
            if(a[i]+a[j]==k)
            count++;
-           
-       }
-      
-    }
+        }
+   }
     if(count>=1)
     {
     printf("Yes");
