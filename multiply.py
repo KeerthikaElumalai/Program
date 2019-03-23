@@ -1,3 +1,3 @@
-s1,s2=map(int,raw_input().split())
-s3=s1*s2
-print(s3)
+a1,a2=map(int,raw_input().split())
+a3=a1*a2
+print(a3)
