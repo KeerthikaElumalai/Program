@@ -11,7 +11,7 @@ int main(void)
 	{
 		if(a[i]%2!=0 && (i+1)%2!=0||(a[i]%2==0 && (i+1)%2==0))
 		{
-			printf("%d",a[i]);
+			printf("%d ",a[i]);
 		}
 	}
 	return 0;
