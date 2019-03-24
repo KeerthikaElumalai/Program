@@ -44,6 +44,6 @@ printf("%d",s[k]);
 }
 if(b==0)
 {
-printf("-1");
+printf("1");
 }
 }
