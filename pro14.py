@@ -1,13 +1,10 @@
-p,a=map(int,input().split())
-lst=list(map(int,input().split()))
-r=[]
-lst.insert(0,0)
-for x in range(a):
-     q=[]
-     sums=0
-     c,d=map(int,input().split())
-     for i in range(c,d+1):
-         sums^=lst[i]
-      r.append(sums)
-for x in r:
-    print(x)
+N,Q=map(int,raw_input().split())
+m=list(map(int,raw_input().split()))
+c=0
+for i in range(0,Q):
+  U,V=map(int,raw_input().split())
+  b=m[U-1:V]
+  for j in b:
+    c=c^j
+  print(c)
+  c=0
