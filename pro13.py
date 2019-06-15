@@ -1,7 +1,13 @@
-
-N,Q=map(int,raw_input().split())
-a=list(map(int,raw_input().split()))
-for i in range(0,Q):
-  U,V=map(int,raw_input().split())
-  c=a[U-1:V]
-  print(min(c))
+    
+p,a=map(int,input().split())
+array=list(map(int,input().split()))
+temp=[]
+for i in range(0,a):
+    f=list(map(int,input().split()))
+    l=f[0]
+    for j in range(min(f)-1,max(f)):
+        if l>array[j]:
+        	l=array[j]
+    temp.append(l)
+for i in range(0,len(temp)):
+    print(temp[i])
