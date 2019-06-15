@@ -1,3 +1,4 @@
+#keerthi
 N,Q=map(int,raw_input().split())
 m=list(map(int,raw_input().split()))
 c=0
