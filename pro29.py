@@ -13,4 +13,3 @@ while i<90 and i<inp:
 print(x)
 for i in b:
   print(i)
-© 2019 GitHub, Inc.
