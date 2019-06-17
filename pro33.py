@@ -1,12 +1,12 @@
-mn=input()
+n=input()
 flag3=0
-for i in range(0,len(mn)-1):
-  for j in range(i+1,len(mn)):
-    if mn[i]<mn[j]:
+for i in range(0,len(n)-1):
+  for j in range(i+1,len(n)):
+    if n[i]<n[j]:
       flag3=1
-      print(mn[j:])
+      print(n[j:])
       break
   if flag3==1:
     break
 else:
-  print(mn)
+  print(n)
